@@ -15,5 +15,8 @@ object RootService {
 
     case GET -> Root / "json" =>
       Ok(List(1, 2, 3, 4, 5, 6, 7).asJson)
+
+    case GET -> Root / IntVar(id) =>
+      Ok(s"Hello $id".asJson)
   }
 }
