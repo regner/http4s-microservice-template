@@ -12,8 +12,8 @@ libraryDependencies ++= Seq(
   "org.http4s" %% "http4s-blaze-server" % http4sVersion,
   "org.http4s" %% "http4s-dsl"          % http4sVersion,
   "org.http4s" %% "http4s-argonaut"     % http4sVersion,
+  "org.http4s" %% "http4s-circe"        % http4sVersion,
   "io.circe"   %% "circe-core"          % circeVersion,
-  "io.circe"   %% "circe-generic"       % circeVersion,
-  "io.circe"   %% "circe-jawn"          % circeVersion
+  "io.circe"   %% "circe-generic"       % circeVersion
 )
 

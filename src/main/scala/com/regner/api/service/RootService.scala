@@ -1,6 +1,6 @@
 package com.regner.api.service
 
-import com.regner.api.service.CirceImplicits._
+import org.http4s.circe._
 import org.http4s.dsl._
 import org.http4s.HttpService
 import io.circe.generic.auto._
